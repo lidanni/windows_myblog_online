@@ -1,0 +1,450 @@
+/*************aboutme开始************/
+#aboutme{
+	width: 100%;
+	height: 528px;
+	padding: 48px 0 80px 0;
+}
+#aboutme .title h2{
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 0 0 0 7px;
+	color: #595959;
+}
+#aboutme .title span{
+	width: 94px;
+	margin: 12px auto;
+	background: #88ccd8;
+	display: block;
+	height: 7px;
+}
+#aboutme .content{
+	margin-top: 65px;
+}
+#aboutme .about-left{
+	width: 700px;
+	height: 382px;
+	float: left;
+	margin-left: 20px;
+}
+#aboutme .about-left h3{
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #595959;
+	margin-bottom: 5px;
+}
+#aboutme .about-left p{
+	font-size: 14px;
+    line-height: 32px;
+	text-transform: uppercase;
+	color: #7c7c7c;
+    margin: 16px 10px 0 0;
+}
+#aboutme .about-left span{
+	display: block;
+	margin-top: 12px;
+	color: #595959;
+}
+#aboutme .about-right img{
+	width: 310px;
+	height: 402px;
+	display: block;
+	float: left;
+	margin-left: 100px;
+}
+/*************aboutme结束************/
+
+/************myservice开始***********/
+#myservice{
+	width: 100%;
+	height: 658px;
+	padding: 64px 0 80px 0;
+	background: url(../img/services-bg.jpg) no-repeat;
+	color: #fff;
+}
+#myservice .title h2{
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 0 0 0 7px;
+	color: #fff;
+}
+#myservice .title span{
+	width: 94px;
+	margin: 12px auto;
+	background: #88ccd8;
+	display: block;
+	height: 7px;
+}
+#myservice .content{
+	margin-top: 65px;
+}
+#myservice .service-list{
+	width: 350px;
+	height: 297px;
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+}
+#myservice .top-list{
+	margin-top: 10px;
+}
+#myservice .service-list span{
+	width: 48px;
+	height: 42px;
+	display: block;
+	margin-left: 155px;
+}
+#myservice .icon1{
+	background: url(../img/services-icons.png) no-repeat 0 0;
+}
+#myservice .icon2{
+	background: url(../img/services-icons.png) no-repeat -55px 0;
+}
+#myservice .icon3{
+
+	background: url(../img/services-icons.png) no-repeat -118px 0;
+}
+#myservice .icon4{
+	background: url(../img/services-icons.png) no-repeat -178px 0;
+}
+#myservice .icon5{
+	background: url(../img/services-icons.png) no-repeat -240px 0;
+}
+#myservice .icon6{
+	background: url(../img/services-icons.png) no-repeat -292px 0;
+}
+#myservice .service-list h3{
+	color: #878a8e;
+	font-weight: 700;
+	font-size: 24px;
+	padding: 8px 0;
+	margin: 0 auto;
+}
+#myservice .service-list p{
+	color: #878a8e;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 24px;
+	width: 90%;
+	margin: 0 auto;
+}
+/************myservice结束***********/
+
+/*************protfolio开始***********/
+#portfolio{
+	width: 100%;
+	height: 476px;
+	padding: 64px 0 80px 0;
+}
+#portfolio .title h2{
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 0 0 0 7px;
+	color: #595959;
+}
+#portfolio .title span{
+	width: 94px;
+	margin: 12px auto;
+	background: #88ccd8;
+	display: block;
+	height: 7px;
+}
+#portfolio .content{
+	margin-top: 65px;
+}
+#portfolio .portfolio-list{
+	width: 1140px;
+	height: 360px;
+	margin: 50px auto;
+}
+#portfolio .portfolio-list li{
+	width: 285px;
+	height: 179px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+#portfolio .portfolio-list .mask{
+	width: 285px;
+	height: 179px;
+	background: rgb(31, 37, 44);
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#portfolio .portfolio-list img{
+	width: 100%;
+	height: 100%;
+}
+#portfolio .portfolio-list .mask .hover-icon{
+	width: 56px;
+	height: 55px;
+	background: url(../img/hover-icon.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	top: 28px;
+	margin-left: -28px;
+}
+#portfolio .portfolio-list .mask h3{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	left: 50px;
+	bottom: 60px;
+}
+#portfolio .portfolio-list .mask p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	left: 97px;
+	bottom: 40px;
+}
+/*************protfolio结束***********/
+
+/************myblog开始*************/
+#myblog{
+	width: 100%;
+	/*height: 1530px;*/
+	padding: 0 0 48px 0;
+}
+#myblog .title h2{
+	text-align: center;
+	font-weight: 900;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 0 0 0 7px;
+	color: #595959;
+}
+#myblog .title span{
+	width: 94px;
+	margin: 12px auto;
+	background: #88ccd8;
+	display: block;
+	height: 7px;
+}
+#myblog .content{
+	margin-top: 65px;
+}
+#myblog .content{
+	margin-left: 15px;
+}
+#myblog .blog-list{
+	float: left;
+	margin: 0 45px 0 0;
+}
+#myblog .blog-list li{
+	border: 1px ridge #E7E7E7;
+	background: #fff;
+	padding: 16px;
+	width: 316px;
+	position: relative;
+	margin-bottom: 32px;
+	/*word-break: break-all;*/
+}
+#myblog .right-ul{
+	margin-right: 0;
+}
+#myblog .img{
+	width: 315px;
+}
+#myblog h3{
+	padding: 8px 16px 8px 8px;
+}
+#myblog .title{
+	font-size: 20px;
+	color: #595959;
+	font-weight: 700;
+}
+#myblog .title:hover{
+	color: #88ccd8;
+}
+#myblog .author{
+	display: block;
+	color: #7c7c7c;
+	padding: 0 0 8px 8px;
+}
+#myblog .des{
+	padding: 0 0 0 8px;
+	width: 300px;
+	color: #595959;
+	margin-bottom: 100px;
+	line-height: 130%;
+}
+#myblog .seemore{
+	width: 80px;
+	height: 21px;
+	line-height: 21px;
+	display: block;
+	background: #64c9db;
+	color: #fff;
+	padding: 12px 24px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+#myblog .seemore:hover{
+	background: #595959;
+}
+#myblog .more-blogs{
+	margin-top: 20px;
+	text-align: center;
+	color: #515151;
+	font-size: 29px;
+	font-weight: 300;
+}
+#myblog .more-blogs a{
+	color: #64c9db;
+}
+#myblog .more-blogs a:hover{
+	color: #595959;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {
+	clear: both;
+}
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+	*zoom: 1;
+}
+/************myblog结束*************/
+
+/************projects开始*************/
+#projects{
+	width: 100%;
+	height: 440px;
+	padding: 240px 0 0 0;
+	background: url(../img/projects-bg.jpg) no-repeat;
+}
+#projects .circle-bg{
+	width: 284px;
+	height: 284px;
+	display: block;
+	background: url(../img/cycle.png) no-repeat;
+	position: relative;
+	margin: 0 auto;
+}
+#projects .top-part{
+	width: 150px;
+	height: 168px;
+	position: absolute;
+	left: 50%;
+	top: -90px;
+	margin-left: -40px;
+}
+#projects .top-part p{
+	margin-left: -64px;
+}
+#projects .left-part{
+	width: 150px;
+	height: 168px;
+	position: absolute;
+	left: -20px;
+	top: 100px;
+}
+#projects .left-part p{
+	margin-left: -230px;
+}
+#projects .right-part{
+	width: 150px;
+	height: 168px;
+	position: absolute;
+	right: -100px;
+	top: 100px;
+}
+#projects .right-part p{
+	margin-right: -180px;
+}
+#projects p{
+	color: #fff;
+	font-size: 29px;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+}
+#projects .three-cricle{
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border-radius: 100px;
+	position: relative;;
+}
+#projects .three-circle-content{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: url(../img/project-icons.png) no-repeat;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+#projects .top-circle-content{
+	background-position: 0 0;
+}
+#projects .left-circle-content{
+	background-position: -42px 0;
+}
+#projects .right-circle-content{
+	background-position: -84px 0;
+}
+/************projects结束*************/
+
+/************contact开始*************/
+#contact{
+	width: 100%;
+	height: 60px;
+	margin: 40px 0 40px 0;
+}
+#contact p{
+	color: #595959;
+	font-size: 24px;
+	font-weight: 400;
+	margin-left: 50px;
+	text-align: center;
+}
+#contact p a{
+	width: 187px;
+	height: 59px;
+	line-height: 59px;
+	display: inline-block;
+	background: #5dbed2;
+	color: #FFF;
+	font-size: 20px;
+	border-radius: 6px;
+	margin-left: 30px;
+}
+/************contact结束*************/
+

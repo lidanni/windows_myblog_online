@@ -1,0 +1,40 @@
+.bigmask{
+	width: 1280px;
+	height: 705px;
+	background: #000;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.lightbox-img{
+	max-width: 600px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.loading{
+	text-align: center;
+	font-size: 28px;
+}
+.close{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+.bigimg{
+	opacity: 1;
+	filter: alpha(opacity: 100);
+}

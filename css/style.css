@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+body{
+  background: #f3f3f3;
+}
+/*************nav开始***************/
+#nav .nav-open-icon{
+  width: 52px;
+  height: 52px;
+  background: url(../img/nav-icon.png) no-repeat;
+  cursor: pointer;
+  position: absolute;/*相对于浏览器*/
+  top: 64px;
+  right: 86px;
+}
+#nav .nav-menu-box{
+  width: 100%;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  top: -192px;
+  z-index: 1;
+}
+#nav .nav-menu-bg{
+  /*父元素透明，子元素透明*/
+  width: 100%;
+  height: 100%;
+  background: rgb(82, 87, 89);
+  opacity: 0.39;
+  filter: alpha(opacity=39);
+  /*css3语法，IE8不兼容*/
+  /*background: rgba(82, 87, 89, 0.39);*/  
+}
+#nav .nav-menu-ul{
+  width: 694px;
+  height: 32px;
+  position: absolute;/*相对于nav*/
+  left: 50%;
+  top: 50%;
+  margin-left: -347px;
+  margin-top: -16px;
+}
+#nav .nav-menu-ul li{
+  float: left;
+}
+#nav .nav-menu-ul li a{
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin: 8px 24px;
+}
+#nav .nav-menu-ul li a:hover{
+  color: #1f98ad;
+}
+#nav-close-icon{
+  width: 35px;
+  height: 35px;
+  background: url(../img/close2.png) no-repeat;
+  cursor: pointer; 
+  position: absolute;/*相对于nav*/
+  right: 94px;
+  top: 47%;
+  margin-top: -17px;
+}
+
+/*************nav结束***************/
+
+/***************header开始*************/
+#header.index_header{
+  height: 830px;
+  overflow: hidden;
+}
+#header.single_header,#header.blog_header{
+  max-height: 200px;
+  overflow: hidden;
+}
+#header .header-bg{
+  width: 100%;
+}
+#header .myphoto{
+  width: 380px;
+  height: 380px;
+  border-radius: 500px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -195px;
+}
+#header .introduction{
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 580px;
+  margin-left: -250px;
+}
+#header .introduction h1{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  color: #fff;
+  font-size: 64px;
+  /*1em=16px*/
+}
+#header .introduction p{
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+#header .introduction ul{
+  margin: 10px 0 0 150px;
+}
+#header .introduction ul li{
+  float: left;
+  margin: 20px 20px 0 0;
+}
+#header .introduction ul li a{
+  font-size: 22px;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+#header .introduction ul li a:hover{
+  color: #88ccd8;
+}
+/***************header结束*************/
+
+/************footer开始*************/
+#footer{
+  width: 100%;
+  height: 28px;
+  margin: 30px 0 30px 0;
+}
+#footer .container{
+  width: 1140px;
+  height: 85px;
+  border-top: 1px solid #DBDBDB;
+  margin-top: 5px;
+}
+#footer .container p{
+  font-family: 'Raleway', sans-serif;
+  color: #8e8e8e;
+  font-size: 16px;
+  margin-top: 30px;
+}
+#footer .container ul{
+  float: right;
+}
+#footer .container ul li{
+  width: 22px;
+  height: 22px;
+  float: left;
+  margin-left: 6px;
+  margin-top: -20px;
+}
+#footer .container ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/social-icons.png) no-repeat 0 0;
+}
+#footer .container ul li .face{
+  background-position: 0 0;
+}
+#footer .container ul li .twit{
+  background-position: -21px 0;
+}
+#footer .container ul li .dri{
+  background-position: -50px 0;
+}
+#footer .container ul li .tech{
+  background-position: -80px 0;
+}
+#footer .container ul li a:hover{
+  background: url(../img/social-icons.png) no-repeat 0 -22px;
+}
+#footer .container ul li .face:hover{
+  background-position: 0 -22px;
+}
+#footer .container ul li .twit:hover{
+  background-position: -21px -22px;
+}
+#footer .container ul li .dri:hover{
+  background-position: -50px -22px;
+}
+#footer .container ul li .tech:hover{
+  background-position: -80px -22px;
+}
+#footer .to-top{
+  width: 40px;
+  height: 40px;
+  background: url(../img/to-top1.png) no-repeat;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  display: none;
+}
+#footer .to-top{
+  cursor: pointer;
+}
+/************footer结束*************/
+
+
+
+
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

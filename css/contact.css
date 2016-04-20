@@ -1,0 +1,87 @@
+#contact{
+    height: 450px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#contact .left{
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+}
+#contact p{
+    margin-bottom: 32px;
+}
+#contact p label{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+}
+#contact p .name, #contact p .email{
+    width: 95%;
+    display: block;
+    padding: 10px;
+    color: #9198A3;
+    background: #fff;
+    border: 1px solid #eee;
+}
+#contact p .area{
+    padding: 10px;
+    display: block;
+    width: 95%;
+    background: #fff;
+    border: 1px solid #eee;
+    color: #9198A3;
+    height: 150px;
+}
+#submit{
+    display: inline-block;
+    padding: 13px 25px;
+    background: #02D7FD;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: none;
+}
+#contact .right{
+    width: 33%;
+    float: left;
+    margin-left: 60px;
+}
+#contact .right h3{
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    font-size: 24px;
+}
+#contact .right p{
+    overflow: hidden;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+#contact .right div{
+    overflow: hidden;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+#contact .right a{
+    color: black;
+}
+#contact .right a:hover{
+    color: #E74C3C;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
